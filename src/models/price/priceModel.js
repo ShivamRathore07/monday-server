@@ -6,6 +6,11 @@ const priceSchema = mongoose.Schema(
     standard: { type: Number, required: true },
     pro: { type: Number, required: true },
     enterprise: { type: Number, required: true },
+    individualFeature:{ type:[String], required: true},
+    basicFeature:{ type:[String], required: true},
+    standardFeature:{ type:[String], required: true},
+    proFeature:{ type:[String], required: true},
+    enterpriseFeature:{ type:[String], required: true},
   },
 );
 
