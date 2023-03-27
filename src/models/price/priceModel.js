@@ -2,11 +2,11 @@ import mongoose from "mongoose";
 
 const priceSchema = mongoose.Schema(
   {
-    basic: { type: Number, required: true },
-    standard: { type: Number, required: true },
-    pro: { type: Number, required: true },
-    enterprise: { type: String, required: true },
-    individual: { type: Number, required: true },
+    basic: { type: Number },
+    standard: { type: Number },
+    pro: { type: Number },
+    enterprise: { type: String },
+    individual: { type: Number },
     individualFeature:{ type:[String], required: true},
     basicFeature:{ type:[String], required: true},
     standardFeature:{ type:[String], required: true},
