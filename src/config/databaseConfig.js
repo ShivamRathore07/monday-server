@@ -6,7 +6,8 @@ const connectDB = async () => {
       useCreateIndex: true,
       useFindAndModify: false,
       useUnifiedTopology: true,
-      useNewUrlParser: true,
+      family: 4,
+      useNewUrlParser: true
     });
     console.log("Mongodb connection SUCCESS ⭐");
   } catch (error) {
