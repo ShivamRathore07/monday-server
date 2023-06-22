@@ -12,6 +12,7 @@ const userSchema = mongoose.Schema(
     companySize: { type: String, trim: true, required: true },
     manage: { type: String, trim: true, required: true },
     focusOnFirst: { type: String, trim: true, required: true },
+    hereAboutUs: { type: String, trim: true, required: true },
     role: {
       type: String,
       required: true,
